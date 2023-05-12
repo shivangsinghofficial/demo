@@ -1,0 +1,9 @@
+server:
+  port: 8025
+  servlet:
+    context-path: /api/plutus
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/demo
